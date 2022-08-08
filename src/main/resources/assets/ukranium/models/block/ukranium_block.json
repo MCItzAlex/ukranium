@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "ukranium:block/ukranium_block_side",
+    "bottom": "ukranium:block/ukranium_block_bottom",
+    "top": "ukranium:block/ukranium_block_top"
+  }
+}

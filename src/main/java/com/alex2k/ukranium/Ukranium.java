@@ -1,5 +1,6 @@
 package com.alex2k.ukranium;
 
+import com.alex2k.ukranium.block.ModBlocks;
 import com.alex2k.ukranium.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
@@ -24,6 +25,7 @@ public class Ukranium
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

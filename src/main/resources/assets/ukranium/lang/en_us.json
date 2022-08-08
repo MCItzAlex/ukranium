@@ -1,4 +1,9 @@
 {
   "item.ukranium.ukranium_ingot": "Ukranium Ingot",
-  "item.ukranium.raw_ukranium": "Raw Ukranium"
+  "item.ukranium.raw_ukranium": "Raw Ukranium",
+
+  "itemGroup.ukraniumtab": "Ukranium Mod",
+
+  "block.ukranium.ukranium_ore": "Ukranium Ore",
+  "block.ukranium.ukranium_block": "Block of Ukranium"
 }
