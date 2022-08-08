@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ukranium:ukranium_block"
+    }
+  ],
+  "result": {
+    "item": "ukranium:ukranium_ingot",
+    "count": 9
+  }
+}
