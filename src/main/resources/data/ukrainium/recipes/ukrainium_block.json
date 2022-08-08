@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ukrainium:ukrainium_ingot"
+    }
+  },
+  "result": {
+    "item": "ukrainium:ukrainium_block"
+  }
+}

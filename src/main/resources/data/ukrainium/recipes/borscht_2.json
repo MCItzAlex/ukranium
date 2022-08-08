@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "cbp",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:bowl"
+    },
+    "b": {
+      "item": "minecraft:beetroot"
+    },
+    "p": {
+      "item": "minecraft:potato"
+    },
+    "c": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "ukrainium:borscht"
+  }
+}

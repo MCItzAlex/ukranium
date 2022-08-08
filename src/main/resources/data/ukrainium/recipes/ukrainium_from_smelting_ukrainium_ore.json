@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "ukrainium:ukrainium_ore"
+  },
+  "result": "ukrainium:ukrainium_ingot",
+  "experience": 0.9,
+  "cookingtime": 200
+}
