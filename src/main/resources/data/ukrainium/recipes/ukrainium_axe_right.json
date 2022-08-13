@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "uu",
+    "#u",
+    "# "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "u": {
+      "item": "ukrainium:ukrainium_ingot"
+    }
+  },
+  "result": {
+    "item": "ukrainium:ukrainium_axe"
+  }
+}
