@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> UKRAINIUM_ORE = registerBlock("ukrainium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.UKRAINIUM_TAB);
 
+    public static final RegistryObject<Block> DEEPSLATE_UKRAINIUM_ORE = registerBlock("deepslate_ukrainium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.UKRAINIUM_TAB);
+
     public static final RegistryObject<Block> UKRAINIUM_BLOCK = registerBlock("ukrainium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.UKRAINIUM_TAB);
 

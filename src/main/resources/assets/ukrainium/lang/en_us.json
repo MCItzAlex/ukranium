@@ -7,9 +7,15 @@
   "item.ukrainium.ukrainium_axe": "Ukrainium Axe",
   "item.ukrainium.ukrainium_shovel": "Ukrainium Shovel",
   "item.ukrainium.ukrainium_hoe": "Ukrainium Hoe",
+  "item.ukrainium.ukrainium_helmet": "Ukrainium Helmet",
+  "item.ukrainium.ukrainium_chestplate": "Ukrainium Chestplate",
+  "item.ukrainium.ukrainium_leggings": "Ukrainium Leggings",
+  "item.ukrainium.ukrainium_boots": "Ukrainium Boots",
+
 
   "itemGroup.ukrainiumtab": "Ukrainium Mod",
 
   "block.ukrainium.ukrainium_ore": "Ukrainium Ore",
+  "block.ukrainium.deepslate_ukrainium_ore": "Deepslate Ukrainium Ore",
   "block.ukrainium.ukrainium_block": "Block of Ukrainium"
 }

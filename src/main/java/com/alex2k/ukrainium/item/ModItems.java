@@ -1,6 +1,7 @@
 package com.alex2k.ukrainium.item;
 
 import com.alex2k.ukrainium.Ukrainium;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -39,6 +40,23 @@ public class ModItems {
 
     public static final RegistryObject<Item> UKRAINIUM_HOE = ITEMS.register("ukrainium_hoe",
             () -> new HoeItem(ModTiers.UKRAINIUM, -5, 0f,
+                    new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
+
+    // UKRAINIUM ARMOUR
+    public static final RegistryObject<Item> UKRAINIUM_HELMET = ITEMS.register("ukrainium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.UKRAINIUM, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
+
+    public static final RegistryObject<Item> UKRAINIUM_CHESTPLATE = ITEMS.register("ukrainium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.UKRAINIUM, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
+
+    public static final RegistryObject<Item> UKRAINIUM_LEGGINGS = ITEMS.register("ukrainium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.UKRAINIUM, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
+
+    public static final RegistryObject<Item> UKRAINIUM_BOOTS = ITEMS.register("ukrainium_boots",
+            () -> new ArmorItem(ModArmorMaterials.UKRAINIUM, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
 
     public static void register(IEventBus eventBus) {
