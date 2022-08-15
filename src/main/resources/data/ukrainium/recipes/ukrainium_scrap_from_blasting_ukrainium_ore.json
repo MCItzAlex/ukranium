@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "ukrainium:raw_ukrainium"
+    "item": "ukrainium:ukrainium_ore"
   },
-  "result": "ukrainium:ukrainium_ingot",
+  "result": "ukrainium:ukrainium_scrap",
   "experience": 0.9,
   "cookingtime": 100
 }

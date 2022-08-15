@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "ukrainium:raw_ukrainium"
   },
-  "result": "ukrainium:ukrainium_ingot",
+  "result": "ukrainium:ukrainium_scrap",
   "experience": 0.9,
   "cookingtime": 200
 }

@@ -4,6 +4,7 @@ import com.alex2k.ukrainium.Ukrainium;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -16,6 +17,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
 
     public static final RegistryObject<Item> RAW_UKRAINIUM = ITEMS.register("raw_ukrainium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
+
+    public static final RegistryObject<Item> UKRAINIUM_SCRAP = ITEMS.register("ukrainium_scrap",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.UKRAINIUM_TAB)));
 
     public static final RegistryObject<Item> BORSCHT = ITEMS.register("borscht",
